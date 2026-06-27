@@ -29,7 +29,7 @@
 - Settings
 
 ![alt text](gambar/setting.png)
-
+////
 
 ## Web app
 
