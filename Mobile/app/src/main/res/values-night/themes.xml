@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark theme -->
+    <style name="Theme.RentHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#1B5E20</item>
+        <item name="colorOnPrimaryContainer">@color/primary_light</item>
+        <item name="colorSecondary">@color/accent_orange</item>
+
+        <item name="colorSurface">@color/bg_dark_card</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+        <item name="colorOutline">#666666</item>
+        <item name="colorOutlineVariant">@color/divider_dark</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+
+    <!-- AMOLED Black Mode Overlay -->
+    <style name="Theme.RentHub.Black">
+        <item name="android:colorBackground">@color/bg_black</item>
+        <item name="colorSurface">@color/bg_black</item>
+        <item name="android:statusBarColor">@color/bg_black</item>
+        <item name="android:navigationBarColor">@color/bg_black</item>
+    </style>
+
+    <!-- Accent Variations for Dark Mode -->
+    <style name="Theme.RentHub.Blue" parent="Theme.RentHub">
+        <item name="colorPrimary">#4285F4</item>
+        <item name="colorPrimaryContainer">#0D47A1</item>
+        <item name="colorOnPrimaryContainer">#D2E3FC</item>
+    </style>
+
+    <style name="Theme.RentHub.Red" parent="Theme.RentHub">
+        <item name="colorPrimary">#EA4335</item>
+        <item name="colorPrimaryContainer">#B71C1C</item>
+        <item name="colorOnPrimaryContainer">#FAD2CF</item>
+    </style>
+
+    <style name="Theme.RentHub.Orange" parent="Theme.RentHub">
+        <item name="colorPrimary">#FBBC05</item>
+        <item name="colorPrimaryContainer">#E65100</item>
+        <item name="colorOnPrimaryContainer">#FFE082</item>
+    </style>
+
+    <!-- Dynamic Splash Themes for Dark Mode -->
+    <style name="Theme.RentHub.Splash" parent="Theme.RentHub">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RentHub.Splash.Blue" parent="Theme.RentHub.Blue">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RentHub.Splash.Red" parent="Theme.RentHub.Red">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RentHub.Splash.Orange" parent="Theme.RentHub.Orange">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+</resources>

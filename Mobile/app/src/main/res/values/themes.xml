@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Theme - DayNight -->
+    <style name="Theme.RentHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">@color/primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent_orange</item>
+
+        <item name="colorSurface">@color/bg_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:colorBackground">@color/bg_grey</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/bg_white</item>
+    </style>
+
+    <!-- Accent Variations -->
+    <style name="Theme.RentHub.Blue" parent="Theme.RentHub">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryContainer">@color/blue_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/blue_primary_dark</item>
+        <item name="android:statusBarColor">@color/blue_primary</item>
+    </style>
+
+    <style name="Theme.RentHub.Red" parent="Theme.RentHub">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryContainer">@color/red_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/red_primary_dark</item>
+        <item name="android:statusBarColor">@color/red_primary</item>
+    </style>
+
+    <style name="Theme.RentHub.Orange" parent="Theme.RentHub">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryContainer">@color/orange_primary_light</item>
+        <item name="colorOnPrimaryContainer">@color/orange_primary_dark</item>
+        <item name="android:statusBarColor">@color/orange_primary</item>
+    </style>
+
+    <!-- Dynamic Splash Themes -->
+    <style name="Theme.RentHub.Splash" parent="Theme.RentHub">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.RentHub.Splash.Blue" parent="Theme.RentHub.Blue">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RentHub.Splash.Red" parent="Theme.RentHub.Red">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.RentHub.Splash.Orange" parent="Theme.RentHub.Orange">
+        <item name="android:windowBackground">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Special Theme for Detail -->
+    <style name="Theme.RentHub.VehicleDetail" parent="Theme.RentHub">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

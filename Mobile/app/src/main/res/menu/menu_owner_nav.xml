@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_dashboard"
+          android:title="@string/nav_dashboard"
+          android:icon="@android:drawable/ic_menu_compass"/>
+    <item android:id="@+id/nav_vehicles"
+          android:title="@string/nav_vehicles"
+          android:icon="@android:drawable/ic_menu_directions"/>
+    <item android:id="@+id/nav_requests"
+          android:title="@string/nav_requests"
+          android:icon="@android:drawable/ic_menu_send"/>
+    <item android:id="@+id/nav_profile"
+          android:title="@string/nav_profile"
+          android:icon="@android:drawable/ic_menu_myplaces"/>
+</menu>

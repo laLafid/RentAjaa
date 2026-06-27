@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RentAja</string>
+    <string name="app_slogan">Sewa kendaraan, mudah dan terpercaya</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_rentals">Sewa Saya</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_vehicles">Unit Saya</string>
+    <string name="nav_requests">Permintaan</string>
+    <string name="btn_book">Ajukan Sewa</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_delete">Hapus Unit</string>
+    <string name="btn_logout">Keluar</string>
+    <string name="empty_vehicles">Belum ada kendaraan tersedia</string>
+    <string name="empty_bookings">Belum ada booking</string>
+    <string name="label_per_day">/ hari</string>
+
+    <!-- Auth -->
+    <string name="tab_login">Masuk</string>
+    <string name="tab_register">Daftar</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="label_register_as">Daftar sebagai:</string>
+    <string name="role_renter">🧳 Penyewa</string>
+    <string name="role_owner">🏢 Pemilik</string>
+    <string name="btn_create_account">Buat Akun</string>
+    <string name="error_fill_fields">Lengkapi semua data!</string>
+    <string name="error_fill_login">Isi email &amp; password!</string>
+    <string name="msg_register_success">Akun berhasil dibuat!</string>
+    <string name="msg_login_failed">Login gagal: %1$s</string>
+    <string name="msg_failed">Gagal: %1$s</string>
+
+    <!-- Home -->
+    <string name="greeting">Halo 👋</string>
+    <string name="hint_search">Cari kendaraan…</string>
+    <string name="label_category">Kategori</string>
+    <string name="label_see_all">Lihat Semua</string>
+    <string name="cat_mobil">Mobil</string>
+    <string name="cat_motor">Motor</string>
+    <string name="cat_kapal">Kapal</string>
+    <string name="cat_alutsista">Alutsista</string>
+    <string name="cat_truk">Truk</string>
+    <string name="cat_bus">Bus</string>
+    <string name="label_all_vehicles">Semua Kendaraan</string>
+    <string name="msg_no_vehicles">Kendaraan tidak ditemukan</string>
+    <string name="category_placeholder">Kategori</string>
+    <string name="vehicle_name_placeholder">Nama Kendaraan</string>
+    <string name="price_per_day_format">Rp %1$s /hari</string>
+
+    <!-- Profile -->
+    <string name="btn_edit_profile">Edit Profil</string>
+    <string name="label_settings">Pengaturan</string>
+    <string name="label_language">Bahasa</string>
+    <string name="current_language">Bahasa Indonesia</string>
+
+    <!-- Theme Settings -->
+    <string name="label_theme">Tema Aplikasi</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_system">Default Sistem</string>
+    <string name="label_dynamic_color">Warna Dinamis</string>
+    <string name="desc_dynamic_color">Ikuti warna wallpaper (Android 12+)</string>
+    <string name="label_black_mode">Mode Hitam (AMOLED)</string>
+    <string name="desc_black_mode">Latar belakang hitam pekat saat mode gelap</string>
+    <string name="label_accent_color">Warna Aksen</string>
+    <string name="accent_green">Hijau (Default)</string>
+    <string name="accent_blue">Biru</string>
+    <string name="accent_red">Merah</string>
+    <string name="accent_orange">Oranye</string>
+    <string name="label_app_font">Gaya Tulisan</string>
+    <string name="font_default">Bawaan</string>
+    <string name="font_sans_serif">Sans Serif</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_monospace">Monospace</string>
+
+    <string name="label_help_center">Pusat Bantuan</string>
+    <string name="label_account">Akun</string>
+    <string name="label_my_address">Daftar Alamat</string>
+    <string name="label_payment_method">Metode Pembayaran</string>
+    <string name="label_security">Keamanan</string>
+    <string name="label_about">Tentang RentAja</string>
+    <string name="label_privacy_policy">Kebijakan Privasi</string>
+    <string name="label_terms">Syarat &amp; Ketentuan</string>
+    <string name="label_app_version">Versi Aplikasi</string>
+
+    <!-- Vehicle Detail -->
+    <string name="title_vehicle_detail">Detail Kendaraan</string>
+    <string name="label_available">Tersedia</string>
+    <string name="label_rented">Disewa</string>
+    <string name="label_deposit_price">Deposit: %1$s</string>
+    <string name="label_specs">SPESIFIKASI</string>
+    <string name="label_category_with_colon">Kategori: </string>
+    <string name="label_description">DESKRIPSI</string>
+    <string name="label_owner_unit">PEMILIK UNIT</string>
+    <string name="placeholder_description">Deskripsi kendaraan…</string>
+
+    <!-- Booking -->
+    <string name="title_booking">Form Sewa</string>
+    <string name="label_rented_unit">UNIT YANG DISEWA</string>
+    <string name="msg_deposit_warning">Deposit dibayar saat pengambilan unit dan dikembalikan setelah unit dikembalikan dalam kondisi baik.</string>
+    <string name="hint_start_date">Tanggal Mulai</string>
+    <string name="hint_end_date">Tanggal Selesai</string>
+    <string name="hint_phone">No. HP / WhatsApp</string>
+    <string name="hint_full_address">Alamat Lengkap</string>
+    <string name="label_payment_method_title">METODE PEMBAYARAN</string>
+    <string name="btn_transfer">🏦 Transfer</string>
+    <string name="btn_cash">💵 Cash</string>
+    <string name="btn_ewallet">📱 E-Wallet</string>
+    <string name="label_cost_summary">RINGKASAN BIAYA</string>
+    <string name="label_deposit_refundable">Deposit (refundable)</string>
+    <string name="btn_submit_booking">✅ Kirim Pengajuan Sewa</string>
+
+    <!-- Contract -->
+    <string name="title_contract">Kontrak Sewa</string>
+    <string name="label_contract_agreement">PERJANJIAN SEWA KENDARAAN</string>
+    <string name="label_contract_no">NO. KONTRAK</string>
+    <string name="label_contract_id">ID</string>
+    <string name="label_vehicle_data">DATA KENDARAAN</string>
+    <string name="label_unit">Unit</string>
+    <string name="label_owner">Pemilik</string>
+    <string name="label_renter_data">DATA PENYEWA</string>
+    <string name="label_name">Nama</string>
+    <string name="label_phone">No. HP</string>
+    <string name="label_address">Alamat</string>
+    <string name="label_rental_period">PERIODE SEWA</string>
+    <string name="label_start">Mulai</string>
+    <string name="label_end">Selesai</string>
+    <string name="label_duration">Durasi</string>
+    <string name="label_cost_details">RINCIAN BIAYA</string>
+    <string name="label_rental_cost">Biaya Sewa</string>
+    <string name="label_deposit">Deposit</string>
+    <string name="label_payment">Pembayaran</string>
+    <string name="label_total">TOTAL</string>
+    <string name="msg_contract_terms">Dengan disetujuinya kontrak ini oleh pemilik unit, kedua pihak sepakat untuk mematuhi ketentuan sewa yang berlaku. Deposit dikembalikan setelah unit dikembalikan dalam kondisi baik.</string>
+
+    <!-- Items -->
+    <string name="label_per_day_small">per hari</string>
+    <string name="label_deposit_small">Deposit %1$s</string>
+
+    <!-- Owner Profile -->
+    <string name="label_business_info">Informasi Bisnis</string>
+    <string name="label_withdraw">Penarikan Dana</string>
+    <string name="label_statistics">Statistik &amp; Laporan</string>
+
+    <string name="gari">-</string>
+</resources>
